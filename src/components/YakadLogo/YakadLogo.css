@@ -1,0 +1,69 @@
+  .container {
+    height: 80px;
+    width: 80px;
+    position: relative;
+    margin: -5px;
+  }
+  .leftSide {
+    width: 90%;
+    height: 40.5%;
+    border-radius: 200px;
+    background-color: rgba(149, 144, 137, 0.8);
+    transform: rotate(60deg);
+    position: absolute;
+    overflow: hidden;
+    top: 30%;
+    left: -8%;
+  }
+  .leftSideInner {
+    width: 100%;
+    height: 100%;
+    border-radius: 200px;
+    background-color: rgba(245, 122, 122, 0.1);
+    position: absolute;
+    overflow: hidden;
+    top: -15%;
+    left: 0%;
+  }
+  .rightSide {
+    width: 90%;
+    height: 40.5%;
+    border-radius: 200px;
+    background-color: rgba(245, 122, 122, 0.3);
+    transform: rotate(-60deg);
+    position: absolute;
+    overflow: hidden;
+    top: 30%;
+    left: 16.65%;
+  }
+  .rightSideFix {
+    width: 100%;
+    height: 84.444%;
+    border-radius: 200px;
+    background-color: rgba(245, 122, 122, 0.9);
+    transform: rotate(60deg);
+    position: absolute;
+  /*   display: none; */
+    top: -30%;
+    left: 9.7%;
+  }
+  .rightSideInner {
+    width: 85%;
+    height: 100%;
+    border-radius: 200px;
+    background-color: rgba(245, 122, 122, 0.7);
+    position: absolute;
+  /*   display: none; */
+    top: -15%;
+    left: 15%;
+  }
+  .rightSide :hover {
+    width: 250px;
+    top: 49.6%;
+    right: 19%;
+  }
+
+  @keyframes transition {
+
+  }
+  
